@@ -1,0 +1,160 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BP Wallet</title>
+  <meta name="description" content="BP Wallet app download page" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bgOverlay"></div>
+  </div>
+
+  <main class="wrap">
+    <header class="top">
+      <div class="brand">
+        <img class="logo" src="assets/New_BP_WALLET.png" alt="BP Wallet logo" />
+        <div class="brandText">
+          <div class="title">BP Wallet</div>
+          <div class="subtitle">Secure, fast, reliable</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="card" role="region" aria-label="Download BP Wallet">
+      <div class="hero">
+
+        <!-- LEFT -->
+        <div class="heroLeft">
+          <h1 class="headline">Welcome to BP Wallet System</h1>
+
+          <p class="copy">
+            ایپ ڈاؤن لوڈ کرنے کے لیے نیچے دیئے گئے بٹن پر کلک کریں، اور ڈاؤن لوڈ ختم ہونے کے بعد اسے انسٹال کرنا نہ بھولیں۔.
+          </p>
+
+          <div class="stats" aria-label="Stats">
+            <div class="stat">
+              <div class="statLabel">Rating</div>
+              <div class="ratingRow" aria-label="Rating 4.8 out of 5">
+                <span class="ratingValue">4.8</span>
+                <span class="stars" aria-hidden="true">
+                  <span class="star filled">★</span>
+                  <span class="star filled">★</span>
+                  <span class="star filled">★</span>
+                  <span class="star filled">★</span>
+                  <span class="star half">★</span>
+                </span>
+              </div>
+              <div class="statSub">Based on user feedback</div>
+            </div>
+
+            <div class="divider" aria-hidden="true"></div>
+
+            <div class="stat">
+              <div class="statLabel">Downloads</div>
+              <div class="downloadRow">
+                <span class="downloadValue">250K+</span>
+              </div>
+              <div class="statSub">Trusted by thousands</div>
+            </div>
+          </div>
+
+          <div class="cta">
+            <a id="downloadBtn" class="btn" href="download/BPWallet.apk" download>
+              <span class="btnIcon" aria-hidden="true">⬇</span>
+              <span class="btnText">Install BP Wallet</span>
+            </a>
+            <div id="helpText" class="helpText"></div>
+          </div>
+
+          <div class="finePrint">
+            If your phone asks for permission, allow installing apps from downloaded files.
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="heroRight" aria-hidden="true">
+          <div class="phoneMock">
+            <div class="phoneTop"></div>
+
+            <div class="phoneScreen">
+              <div class="phoneHeader">
+                <div class="phoneAppIcon">BP</div>
+                <div class="phoneHeaderText">
+                  <div class="phoneHeaderTitle">BP Wallet</div>
+                  <div class="phoneHeaderSub">Latest reviews</div>
+                </div>
+                <div class="phoneHeaderPill">4.8 ★</div>
+              </div>
+
+              <div class="phoneReviews">
+                <div class="reviewItem">
+                  <div class="reviewAvatar">A</div>
+                  <div class="reviewBody">
+                    <div class="reviewTopRow">
+                      <div class="reviewName">Ali Khan</div>
+                      <div class="reviewStars">
+                        <span class="rStar">★</span><span class="rStar">★</span><span class="rStar">★</span><span class="rStar">★</span><span class="rStar">★</span>
+                      </div>
+                    </div>
+                    <div class="reviewText">Amazing wallet app. Super fast and easy to use.</div>
+                    <div class="reviewMeta">2 days ago</div>
+                  </div>
+                </div>
+
+                <div class="reviewItem">
+                  <div class="reviewAvatar">S</div>
+                  <div class="reviewBody">
+                    <div class="reviewTopRow">
+                      <div class="reviewName">Sara Ahmed</div>
+                      <div class="reviewStars">
+                        <span class="rStar">★</span><span class="rStar">★</span><span class="rStar">★</span><span class="rStar">★</span><span class="rStar">★</span>
+                      </div>
+                    </div>
+                    <div class="reviewText">Secure and reliable. Highly recommend BP Wallet.</div>
+                    <div class="reviewMeta">5 days ago</div>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <!-- White circular button area -->
+              <div class="phoneInstallWrap">
+                <button class="phoneInstallBtn" type="button" aria-label="Install">
+                  ⬇
+                </button>
+                <div class="phoneInstallText">Install</div>
+              </div>
+
+              <div class="phoneFooter">
+                <div class="phoneFooterDot"></div>
+                <div class="phoneFooterDot active"></div>
+                <div class="phoneFooterDot"></div>
+              </div>
+            </div>
+
+            <div class="phoneBottom"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <footer class="footer">
+        <span>© <span id="year"></span> BP Wallet. All rights reserved.</span>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
